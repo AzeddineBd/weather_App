@@ -6,7 +6,8 @@ import { useEffect, useState } from "react";
 import { fetchAirData, fetchWeatherData, fetchCity } from "./utils/ApiFile";
 import { TodayAt } from "./component/todayAt/TodayAt";
 import { debounce } from "lodash";
-import { Loading } from "./component/header/laoding/loading";
+// import { Loading } from "./component/header/laoding/Loading";
+import { Loading } from "./component/header/laoding/Loading";
 import { Footer } from "./component/footer/Footer";
 
 // App Component
