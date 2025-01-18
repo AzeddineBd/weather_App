@@ -3,7 +3,7 @@ import { CurrentWeatherCard } from "./component/card/CurrentWeatherCard";
 import { Forecast } from "./component/card/Forecast";
 import { TodayHighlights } from "./component/todayHighlights/TodayHighlights";
 import { useEffect, useState } from "react";
-import { fetchAirData, fetchWeatherData, fetchCity } from "./utils/apiFile";
+import { fetchAirData, fetchWeatherData, fetchCity } from "./utils/ApiFile";
 import { TodayAt } from "./component/todayAt/TodayAt";
 import { debounce } from "lodash";
 import { Loading } from "./component/header/laoding/loading";
