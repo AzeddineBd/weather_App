@@ -1,6 +1,6 @@
 import { Header } from "./component/header/Header";
 import { CurrentWeatherCard } from "./component/card/CurrentWeatherCard";
-import { Forecast } from "./component/card/forecast";
+import { Forecast } from "./component/card/Forecast";
 import { TodayHighlights } from "./component/todayHighlights/TodayHighlights";
 import { useEffect, useState } from "react";
 import { fetchAirData, fetchWeatherData, fetchCity } from "./utils/apiFile";
