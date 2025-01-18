@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { Loading } from "./laoding/loading";
+import { Loading } from "./laoding/Loading";
 
 export const PhoneSearchBar = ({
   setIsExpanded,
