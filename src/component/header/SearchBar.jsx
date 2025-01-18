@@ -1,4 +1,4 @@
-import { Loading } from "./laoding/loading";
+import { Loading } from "./laoding/Loading";
 import { PhoneSearchBar } from "./PhoneSearchBar";
 import PropTypes from "prop-types";
 
