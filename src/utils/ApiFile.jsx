@@ -15,7 +15,7 @@ export const fetchWeatherData = async (location) => {
 
 export const fetchAirData = async (lat, lon) => {
   const apiKey = import.meta.env.VITE_API_KEY;
-  const url = `http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=${apiKey}`;
+  const url = `https://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=${apiKey}`;
 
   try {
     const response = await axios.get(url);
@@ -28,7 +28,7 @@ export const fetchAirData = async (lat, lon) => {
 
 export const fetchCity = async (query) => {
   const apiKey = import.meta.env.VITE_API_KEY;
-  const url = `http://api.openweathermap.org/geo/1.0/direct?q=${query}&limit=5&appid=${apiKey}`;
+  const url = `https://api.openweathermap.org/geo/1.0/direct?q=${query}&limit=5&appid=${apiKey}`;
 
   try {
     const response = await axios.get(url);
