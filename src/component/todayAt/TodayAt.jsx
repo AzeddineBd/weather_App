@@ -32,10 +32,11 @@ export const TodayAt = ({ data }) => {
                   {formattedHour} {amPm}
                 </p>
                 <img
-                  src={`./public/assets/images/weather_icons/${icon}.png`}
+                  src={`/assets/images/weather_icons/${icon}.png`}
                   alt={time.weather?.[0]?.description || "Weather icon"}
                   className="w-14"
                 />
+
                 <p className="text-2xl">{deg}&deg;</p>
               </li>
             );

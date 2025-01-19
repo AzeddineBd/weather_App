@@ -65,32 +65,3 @@ export const CurrentWeatherCard = ({ data }) => {
     </div>
   );
 };
-
-// <div className="text-white bg-box-bg m-6 rounded-3xl overflow-hidden p-5 ">
-//   <h2 className="text-f-primary text-2xl mb-4">Now</h2>
-//   <div className="flex">
-//     <p className="text-6xl">
-//       {temp}&deg;<sup>c</sup>
-//     </p>
-//     <img
-//       className="w-16 h-16 mx-auto"
-//       src={`./public/assets/images/weather_icons/${imgIcon}.png`}
-//       alt="Overcast Clouds"
-//     />
-//   </div>
-//   <p className="text-f-primary mt-4 pb-4 border-b-2 border-f-secondary mb-4">
-//     {weatherMain}
-//   </p>
-//   <ul className="text-f-primary">
-//     <li className="flex items-center gap-2 mb-3">
-//       <i className="fa-solid fa-calendar-days"></i>
-//       <p className="text-f-third">{date}</p>
-//     </li>
-//     <li className="flex items-center gap-2">
-//       <i className="fa-solid fa-location-dot"></i>
-//       <p className="text-f-third">
-//         {nameCity}, {nameCountry}
-//       </p>
-//     </li>
-//   </ul>
-// </div>

@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 import { fetchAirData, fetchWeatherData, fetchCity } from "./utils/ApiFile";
 import { TodayAt } from "./component/todayAt/TodayAt";
 import { debounce } from "lodash";
-// import { Loading } from "./component/header/laoding/Loading";
 import { Loading } from "./component/header/laoding/Loading";
 import { Footer } from "./component/footer/Footer";
 
@@ -21,25 +20,6 @@ function App() {
   const [Suggestions, setSuggestions] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   // const [userLocation, setUserLocation] = useState(null);
-
-  // const handleLocationChange = (location) => {
-  //   setUserLocation(location);
-  //   getCityName(location.latitude, location.longitude);
-  // };
-
-  // const getCityName = async (lat, lon) => {
-  //   try {
-  //     const response = await fetch(
-  //       `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lon}&localityLanguage=en`
-  //     );
-  //     const cityData = await response.json();
-  //     if (cityData.locality) {
-  //       setLocation(cityData.locality);
-  //     }
-  //   } catch (error) {
-  //     console.error("Error fetching city name:", error);
-  //   }
-  // };
 
   // Get Citys Names
 
