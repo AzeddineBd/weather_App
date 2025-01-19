@@ -4,7 +4,7 @@ export const CardWeather = ({ data, title, icon, vl, unity }) => {
       <h3 className="text-2xl text-f-third">{title}</h3>
       <div className="py-8 flex justify-between items-center">
         <img
-          src={`./public/assets/images/todayhightlights/${icon}.png`}
+          src={`assets/images/todayhightlights/${icon}.png`}
           alt="humidity icon"
           className="w-12 h-12 text-slate-200"
         />

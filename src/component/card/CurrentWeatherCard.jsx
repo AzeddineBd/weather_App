@@ -42,7 +42,7 @@ export const CurrentWeatherCard = ({ data }) => {
         </p>
         <img
           className="w-16 h-16 lg:w-24 lg:h-24 mx-auto"
-          src={`./public/assets/images/weather_icons/${imgIcon}.png`}
+          src={`assets/images/weather_icons/${imgIcon}.png`}
           alt="Overcast Clouds"
         />
       </div>

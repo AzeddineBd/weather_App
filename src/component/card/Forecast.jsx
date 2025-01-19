@@ -50,7 +50,7 @@ export const Forecast = ({ data }) => {
               <li key={index} className="grid grid-cols-12 mb-6 last:mb-0 ">
                 <div className="flex gap-5 items-center col-span-4">
                   <img
-                    src={`./public/assets/images/weather_icons/${icon}.png`}
+                    src={`assets/images/weather_icons/${icon}.png`}
                     alt={day.weather[0].description}
                     className="w-8 lg:w-10"
                   />

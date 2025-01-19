@@ -65,7 +65,7 @@ export const TodayAt = ({ data }) => {
                 </p>
                 <img
                   style={{ transform: `rotate(${windDer}deg)` }}
-                  src={`./public/assets/images/weather_icons/direction.png`}
+                  src={`assets/images/weather_icons/direction.png`}
                   alt=""
                   className="w-14"
                 />

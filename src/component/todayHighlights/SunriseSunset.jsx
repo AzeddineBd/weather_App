@@ -15,7 +15,7 @@ export const SunriseSunset = ({ data }) => {
         {/* SUNRISE */}
         <div className="p-5 flex flex-col gap-4 lg:flex-row lg:items-center">
           <img
-            src="./public/assets/images/todayhightlights/sunset_sunrise/sun.png"
+            src="assets/images/todayhightlights/sunset_sunrise/sun.png"
             alt="Sunrise icon"
             className="w-10 h-10 text-slate-200 lg:w-10 lg:h-10"
           />
@@ -28,7 +28,7 @@ export const SunriseSunset = ({ data }) => {
         {/* SUNSET */}
         <div className="p-5 flex flex-col gap-4 lg:flex-row lg:items-center">
           <img
-            src="./public/assets/images/todayhightlights/sunset_sunrise/moon.png"
+            src="assets/images/todayhightlights/sunset_sunrise/moon.png"
             alt="Sunrise icon"
             className="w-9 text-slate-200 lg:w-10 lg:h-10"
           />
