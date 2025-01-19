@@ -4,7 +4,7 @@ export const Logo = () => {
       <div className="logo">
         <a href="#hom">
           <img
-            src="public/assets/images/logo.png"
+            src="assets/images/logo.png"
             alt="logo"
             className="xs:w-32 sm:w-40 md:w-60 "
           />
